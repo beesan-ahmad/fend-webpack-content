@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__);\n// babel loader take our ES6 syntax and turning it into normal js for our browser.\r\n \r\n\r\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__.checkForName);\r\nalert('hi!!');\n\n//# sourceURL=webpack://example-project/./src/client/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__);\n// babel loader take our ES6 syntax and turning it into normal js for our browser.\n\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__.checkForName);\nalert('hi!!');\n\n//# sourceURL=webpack://example-project/./src/client/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
   \**************************************/
 /***/ (() => {
 
-eval("function checkForName(inputText) {\n    console.log(\"::: Running checkForName :::\", inputText);\n    let names = [\n        \"Picard\",\n        \"Janeway\",\n        \"Kirk\",\n        \"Archer\",\n        \"Georgiou\"\n    ]\n\n    if(names.includes(inputText)) {\n        alert(\"Welcome, Captain!\")\n    }\n}\n\n\n//# sourceURL=webpack://example-project/./src/client/js/nameChecker.js?");
+eval("function checkForName(inputText) {\n  console.log(\"::: Running checkForName :::\", inputText);\n  var names = [\"Picard\", \"Janeway\", \"Kirk\", \"Archer\", \"Georgiou\"];\n  if (names.includes(inputText)) {\n    alert(\"Welcome, Captain!\");\n  }\n}\n\n//# sourceURL=webpack://example-project/./src/client/js/nameChecker.js?");
 
 /***/ })
 
