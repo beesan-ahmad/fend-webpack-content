@@ -2,4 +2,4 @@
 import { checkForName } from './js/nameChecker' 
 
 console.log(checkForName);
-alert('hi!!');
+alert('hello!!');
